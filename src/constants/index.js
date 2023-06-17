@@ -1,12 +1,17 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
+  game,
+  ai,
   javascript,
   typescript,
   html,
   css,
+  cs,
+  java,
+  unity,
+  ue,
+  next,
   reactjs,
   redux,
   tailwind,
@@ -19,9 +24,10 @@ import {
   starbucks,
   tesla,
   shopify,
+  idz,
   carrent,
   jobit,
-  tripguide,
+  glitchGarden,
   threejs,
 } from "../assets";
 
@@ -47,27 +53,43 @@ const services = [
   },
   {
     title: "Game Developer",
-    icon: creator,
+    icon: game,
+  },
+  {
+    title: "Prompt Engineer",
+    icon: ai,
   },
   {
     title: "Graphic Designer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
   
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C#",
+    icon: cs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "Unreal",
+    icon: ue,
+  },
+  {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "JavaScript",
@@ -82,14 +104,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -98,73 +112,21 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Game Developer Intern",
+    company_name: "IDZ digital",
+    icon: idz,
+    iconBg: "#000000",
+    date: "April 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Creating and managing game applications using Unity and C#, enjoyed by a user base of over 400 million.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -241,25 +203,21 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Glitch Garden",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Crafted with the powerful Unity engine and meticulously coded in C#, this awe-inspiring game stands as a faithful replication of the beloved Plants vs. Zombies franchise.",
     tags: [
       {
-        name: "nextjs",
+        name: "CS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Unity",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: glitchGarden,
+    source_code_link: "https://laks07.itch.io/glitch-garden",
   },
 ];
 
