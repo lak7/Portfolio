@@ -4,9 +4,9 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
 
-  // if (isMobile) {
-  //   window.location.href = 'https://mobile-folio.vercel.app/';
-  // }
+  if (isMobile) {
+    window.location.href = 'https://mobile-folio.vercel.app/';
+  }
 
   return (
     <BrowserRouter>
