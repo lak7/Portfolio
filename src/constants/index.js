@@ -27,6 +27,7 @@ import {
   idz,
   carrent,
   jobit,
+  promptverse,
   glitchGarden,
   threejs,
 } from "../assets";
@@ -181,27 +182,24 @@ const projects = [
   //   image: carrent,
   //   source_code_link: "https://github.com/",
   // },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "PromptVerse",
+    description:
+      "Promptverse is a dynamic platform that empowers users to share and explore an extensive collection of AI-generated prompts.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: promptverse,
+    source_code_link: "https://github.com/lak7/PromptVerse",
+    live_demo_link: "http://promptverse.thelakshay.com/",
+  },
   {
     name: "Glitch Garden",
     description:
@@ -217,7 +215,8 @@ const projects = [
       },
     ],
     image: glitchGarden,
-    source_code_link: "https://laks07.itch.io/glitch-garden",
+    source_code_link: "https://github.com",
+    live_demo_link: "https://laks07.itch.io/glitch-garden",
   },
 ];
 

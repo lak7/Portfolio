@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,34 +33,34 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-
-          {/* THIS IS GITHUB */}
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          </div>
         </div>
 
-        <div className='absolute inset-0 flex justify-end items-end m-3 bottom-0 right-0 card-img_hover'>
+      {/* THIS IS GITHUB */}
+      <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
+              onClick={() => window.open(source_code_link, "_blank")}
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
           </div>
+
+
+
+
+
+        {/* THIS IS LIVE BUTTON */}
+        <div className='absolute inset-0 flex justify-end items-end m-3 bottom-0 right-0 card-img_hover'>
+        <button onClick={() => window.open(live_demo_link, "_blank")} className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-4 py-1.5 text-center mr-2 mb-2">
+          LIVE DEMO
+        </button>
+
+        </div>
 
         
 

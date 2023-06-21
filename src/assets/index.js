@@ -33,9 +33,11 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import idz from "./company/idz.png";
 
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import glitchGarden from "./glitch.png";
+import promptverse from "./prompt.png"
 
 export {
   logo,
@@ -73,4 +75,5 @@ export {
   carrent,
   jobit,
   glitchGarden,
+  promptverse
 };
