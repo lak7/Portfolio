@@ -30,6 +30,7 @@ import {
   promptverse,
   glitchGarden,
   threejs,
+  moon
 } from "../assets";
 
 export const navLinks = [

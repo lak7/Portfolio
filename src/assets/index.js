@@ -38,6 +38,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import glitchGarden from "./glitch.png";
 import promptverse from "./prompt.png"
+import moon from "./moon.png"
 
 export {
   logo,
@@ -75,5 +76,6 @@ export {
   carrent,
   jobit,
   glitchGarden,
-  promptverse
+  promptverse,
+  moon
 };
