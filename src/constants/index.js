@@ -120,6 +120,18 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Open Source Java  Developer",
+  //   company_name: "JabRef",
+  //   icon: idz,
+  //   iconBg: "#000000",
+  //   date: "January 2023 - February 2023",
+  //   points: [
+  //     "Creating and managing game applications using Unity and C#, enjoyed by a user base of over 400 million.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Game Developer Intern",
     company_name: "IDZ digital",
@@ -132,6 +144,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  
 ];
 
 const testimonials = [
