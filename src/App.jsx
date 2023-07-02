@@ -4,9 +4,9 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
 
-  // if (isMobile) {
-  //   window.location.href = 'http://www.md.thelakshay.com/';
-  // }
+  if (isMobile) {
+    window.location.href = 'http://www.md.thelakshay.com/';
+  }
 
   return (
     <BrowserRouter>
@@ -17,7 +17,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        {!isMobile && <Tech />}
+        <Tech />
         <Works />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
