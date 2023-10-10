@@ -5,7 +5,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
 
   if (isMobile) {
-    window.location.href = 'http://www.md.thelakshay.com/';
+    window.location.replace('http://md.thelakshay.com/');
   }
 
   return (
