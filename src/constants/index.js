@@ -25,6 +25,7 @@ import {
   tesla,
   shopify,
   idz,
+  dash,
   carrent,
   jobit,
   promptverse,
@@ -142,6 +143,17 @@ const experiences = [
       "Creating and managing game applications using Unity and C#, enjoyed by a user base of over 400 million.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "Dash Dynamic Private Ltd",
+    icon: dash,
+    iconBg: "#000000",
+    date: "June 2023 - Oct 2023",
+    points: [
+      "To make responsive and clean website to showcase features and benefits of wireless car charger on which they are working",
+      "I used reactJS to make their website and also learned many libraries like framer motion for animation and threeJS for 3d models to implement in the website to make it more interactive.",
     ],
   },
   

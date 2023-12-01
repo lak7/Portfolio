@@ -32,6 +32,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import idz from "./company/idz.png";
+import dash from "./company/dash.png";
 
 
 import carrent from "./carrent.png";
@@ -73,6 +74,7 @@ export {
   starbucks,
   tesla,
   idz,
+  dash,
   carrent,
   jobit,
   glitchGarden,
